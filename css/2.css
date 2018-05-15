@@ -1,0 +1,172 @@
+/*list内容*/
+.content .con-list{
+	width: 980px;
+	height: 780px;
+	margin: 10px auto;
+	background: #fff;
+	font-family: "微软雅黑";
+}
+/*list左半部分*/
+.content .con-list .list-lf{
+	width: 210px;
+	height: 770px;
+	padding-left: 10px;
+	padding-top: 20px;
+	float: left;
+	position: relative;
+}
+.content .con-list .list-lf .lf-up{
+	width: 220px;
+	height: 47px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	background: url(../images/listzhong1.png) repeat-x;
+}
+.content .con-list .list-lf .lf-up-zuo{
+	width: 10px;
+	height: 47px;
+	background: url(../images/listzuo1.gif) no-repeat;
+	float: left;
+}
+.content .con-list .list-lf .lf-up-you{
+	width: 10px;
+	height: 47px;
+	background: url(../images/listyou1.png) no-repeat;
+	float: right;
+}
+.content .con-list .list-lf .lf-center{
+	width: 198px;
+	height: 488px;
+	border: 1px solid #e0e0e0;
+	position: absolute;
+	padding-top: 10px;
+	left: 20px;
+	background-color: #f4f4f4;
+}
+.content .con-list .list-lf #xia1{
+	position: absolute;
+	bottom: 233px;
+	left: 20px;
+}
+.content .con-list .list-lf .lf-center li{
+	background: url(../images/sanjiao.png) no-repeat 10px 15px;
+	height: 30px;
+	width: 160px;
+	line-height: 38px;
+	overflow: hidden;
+	padding-left: 20px;
+	font-size: 14px;
+	cursor: pointer;
+	border-bottom: 1px solid #e0e0e0;
+
+}
+.content .con-list .list-lf .lf-lower{
+	position: absolute;
+	left: 10px;
+	bottom: 185px;
+	width: 220px;
+	height: 47px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	background: url(../images/listzhong1.png) repeat-x;
+}
+.content .con-list .list-lf .lf-lower-zuo{
+	width: 10px;
+	height: 47px;
+	background: url(../images/listzuo1.gif) no-repeat;
+	float: left;
+}
+.content .con-list .list-lf .lf-lower-you{
+	width: 10px;
+	height: 47px;
+	background: url(../images/listyou1.png) no-repeat;
+	float: right;
+}
+.content .con-list .list-lf .lf-down{
+	width: 196px;
+	height: 155px;
+	padding-top: 10px;
+	padding-left: 5px;
+	position: absolute;
+	left: 19px;
+	bottom: 20px;
+	background-color: #f4f4f4;
+	line-height: 20px;
+	font-size: 13px;
+	color: #5f5f5f;
+}
+.content .con-list .list-lf .lf-down #xia2{
+	position: absolute;
+	bottom: -15px;
+	left: 0px;
+}
+/*list右半部分*/
+.content .con-list .list-rt{
+	float: right;
+	width: 730px;
+	height: 750px;
+	padding-top: 20px;
+}
+.content .con-list .list-rt .rt-up{
+	width: 720px;
+	height: 53px;
+	line-height: 53px;
+	background: url(../images/listzhong2.png) repeat-x;
+}
+.content .con-list .list-rt .rt-up .zuo{
+	float: left;
+	font-weight: bold;
+	font-size: 16px;
+	width: 150px;
+	height: 53px;
+	text-align: center;
+	background: url(../images/listzuo2.png) no-repeat;
+}
+.content .con-list .list-rt .rt-up .you{
+	float: right;
+	height: 53px;
+	font-size: 12px;
+	text-align: center;
+	width: 260px;
+	position: relative;
+	background: url(../images/listyou2.png) no-repeat 240px 0px;
+}
+.content .con-list .list-rt .rt-up .you .fangzi{
+	background: url(../images/fangzi.png);
+	width: 20px;
+	height: 15px;
+	position: absolute;
+	top: 19px;
+	left: 12px;
+}
+.content .con-list .list-rt .rt-down{
+	width: 700px;
+	height: 630px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.content .con-list .list-rt .rt-down li{
+	width: 680px;
+	height: 40px;
+	padding-left:20px;
+	cursor: pointer;
+	border-bottom: 1px dashed #e0e0e0;
+	line-height: 45px;
+	position: relative;
+	background: url(../images/spot.png) no-repeat 5px 20px;
+}
+.content .con-list .list-rt .rt-down li span{
+	position: absolute;
+	right: 5px;
+}
+.content .con-list .list-rt .rt-yejiao{
+	width: 700px;
+	height: 30px;
+	text-align: center;
+}

@@ -1,0 +1,11 @@
+.content .con-list .list-rt .article{
+	width: 680px;
+	height: 690px;
+} 
+.content .con-list .list-rt .article h3{
+	text-align: center;
+}
+.content .con-list .list-rt .article p{
+	text-indent: 2em;
+	font-family: "微软雅黑";
+}
